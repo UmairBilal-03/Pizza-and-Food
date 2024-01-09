@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Responsive Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Tandoori Pizza 🍕 <span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <!--Banner------->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>“Let food be thy medicine and medicine be thy food.” “We all eat, and it would be a sad waste of
+                opportunity to eat badly.” “You don't need a silver fork to eat good food.” “After a good dinner one can
+                forgive anybody, even one's own relatives.”</p>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>The about us page is often a reflection of the purpose and personality of the business and its owners
+                    or top employees. Finally, the page can also incorporate contact or locational information. One way
+                    to view the about us concept is as a text self-portrait or short autobiography created. <br> <br>The
+                    About Us page of your website is an essential source of information for all who want to know more
+                    about your business. About Us pages are where you showcase your history, what is unique about your
+                    work, your company's values, and who you serve.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------Menu------------>
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>Each product is carefully prepared by our finest chefs using quality ingredients.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/sicillanpizza.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Sicilian Pizza</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/greekpizza.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Greek Pizza</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/chicagopizza.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Chicago Pizza</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/romanpizza.webp" alt="">
+                </div>
+                <div class="text">
+                    <h3>Roman Pizza</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/neapolitanpizza.webp" alt="">
+                </div>
+                <div class="text">
+                    <h3>Neapolitan Pizza</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/bagelpizza.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Bagel Pizza</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="title" onclick="alert(`No More Pizzas we are working hardly on it ! 🍕`)">
+            <a class="btn">View All</a>
+        </div>
+
+    </section>
+
+    <!-------------Experts------------------->
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+            <p>A culinary expert is one who has has learned his / her way through the kitchen through experience.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Mir Hamzah</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Faiz Awan</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Hasan Faisal</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/expert4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Abdul Wahab</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------Testimonials------->
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">They <span>S</span>aid About Us</h2>
+            <p> The transmission of evaluative or corrective information about an action, event, or process.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p class="pra">Pizza ka taste bohat achha tha, especially cheese aur toppings ka combination perfect tha. Delivery time bhi bohat reasonable tha. Agle barashtay mein phir order karunga.</p>
+                    <h3>Umair Latif</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p class="pra">Pizza ki quality buhat achi thi, har bite mein maza aaya. Toppingen fresh aur flavorsome thi. Service bhi prompt thi, mujhe bohat pasand aaya </p>
+                    <h3>Tahir Hameed</h3>
+
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p class="pra">Pizza bohat yummy tha, crust crispy aur cheese melty thi. Delivery on time hui, overall achi experience rahi. Shukriya</p>
+                    <h3>Muhammad Bilal</h3>
+
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------Contact Us-------->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>To make contact means to establish some form of communication, be it physical, verbal, other kind.</p>
+        </div>
+        <form>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <textarea rows="3" placeholder="Message"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send" >
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-----Copy Right Text------>
+    <div class="copyrightText">
+        <p>Copyright 2024 <a href="#"> MBK World<i class="fa fa-heart"></i>All Right Reserved</a></p>
+        <p>Created By <a>Muhammad Bilal Khalid (130) . Umair Latif (002) . Tahir Hameed (126) .</a></p>
+    </div>
+
+    <!------------------JavaScript--------------------->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
